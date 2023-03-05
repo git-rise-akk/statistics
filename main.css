@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #1E1C1C;
+    color: #fff;
+    font-family: 'Golos Text', sans-serif;
+}
+
+input {
+    border-radius: 5px;
+    height: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+    margin: 20px 0 0;
+    min-width: 100vw;
+}
+
+
+li {
+    margin-top: 40px;
+    list-style-type: none
+}
+
+li:first-child {
+    margin-top: 0;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    font-size: 60px;
+    text-align: center;
+}
+
+.result sup {
+    font-size: 30px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 110px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.button {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #FF2C5E;
+    margin: 0 auto;
+}
+
+.button sup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
